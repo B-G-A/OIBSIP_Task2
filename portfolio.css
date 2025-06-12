@@ -1,0 +1,109 @@
+.img1{
+    height: 200px;
+    width: 200px;
+}
+.bg1{
+    background-color: rgb(233, 137, 137);
+    width: 50vw;
+}
+#homeSection{
+    height: 100vh;
+}
+.aboutme-para{
+    font-family: "sans-serif";
+    font-size: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.aboutme-bg{
+    padding-top: 100px;
+    background-color: rgb(239, 209, 214);
+    text-align: center;
+}
+.sample-bg{
+    text-align: center;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.skills-bg{
+    background-color: white;
+    color: black;
+    border-radius: 30px;
+    text-align: left;
+}
+.img2{
+    height: 400px;
+}
+.main-head{
+    font-weight: bold;
+    font-size: 2.5rem;
+    font-family: "Verdana";
+}
+.skills-img{
+    border-radius: 50%;
+    height: auto;
+    max-width: 100%;
+    object-fit: cover;
+}
+.profile-img{
+    border-radius: 50%;
+    width: 50%;
+    object-fit: cover;
+}
+
+.icon-container {
+  background-color: rgb(233, 137, 137);
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  margin: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.icon {
+  font-size: 32px;
+  color: white;
+}
+.head{
+    text-align: center;
+    font-family:'Times New Roman';
+    font-weight: bold;
+}
+.skills-head{
+    text-align: left;
+    padding: 5px;
+    font-family:'Times New Roman';
+    font-weight: bold;
+}
+.main-text{
+    font-size: 1.1rem;
+    font-family: 'Courier New';
+    font-weight: bold;
+}
+ol{
+    padding-left: 30px;
+    font-family: "sans-serif";
+    font-size: 20px;
+}
+/* Fade-in and slide-up animation */
+@keyframes fadeSlideIn {
+  0% {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.home-animation {
+  animation: fadeSlideIn 1.2s ease-out forwards;
+}
+.home-animation-delay {
+  animation-delay: 0.5s;
+}
